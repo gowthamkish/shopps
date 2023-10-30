@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/gowthamkish/shopps/issues"
   },
-  "homepage": "https://github.com/gowthamkish/shopps#readme"
+  "homepage": "https://github.com/gowthamkish/shopps#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
 }
