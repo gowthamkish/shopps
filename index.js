@@ -16,9 +16,9 @@ app.use(
 
 connectDB();
 
-app.get("/", (req, res) => {
-  res.send("Hey this is my API running 🥳");
-});
+// app.get("/", (req, res) => {
+//   res.send("Hey this is my API running 🥳");
+// });
 
 app.use("/api/users", userRoute);
 
