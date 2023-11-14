@@ -14,13 +14,13 @@ app.use(
   })
 );
 
-connectDB();
+// connectDB();
 
 // app.get("/", (req, res) => {
 //   res.send("Hey this is my API running 🥳");
 // });
 
-app.use("/api/users", userRoute);
+// app.use("/api/users", userRoute);
 
 app.listen(PORT, () => {
   console.log(`Server started on PORT ${PORT} `);
