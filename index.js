@@ -3,7 +3,7 @@ const express = require("express");
 const dotenv = require("dotenv").config();
 const PORT = process.env.PORT || 5000;
 // const userRoute = require("./routes/userRoutes");
-const connectDB = require("./config/db");
+// const connectDB = require("./config/db");
 
 const app = express();
 
@@ -14,7 +14,7 @@ app.use(
   })
 );
 
-connectDB();
+// connectDB();
 
 app.get("/", (req, res) => {
   res.send("Hey this is my API running 🥳");
